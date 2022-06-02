@@ -19,7 +19,7 @@ package com.zyz.classloaderAndInitial;
  * @see ChildrenApp
  * @since
  */
-public class ChildrenApp {
+public class ChildrenApp extends BasicApp {
 
     private static String sta;
     
@@ -27,11 +27,22 @@ public class ChildrenApp {
     
     private long bb;
 
+    static {
+        System.out.println("====");
+    }
+
+    {
+        System.out.println("pppp");
+    }
+
     public static void main(String[] args) {
         ChildrenApp app = new ChildrenApp();
-        app.setBb(null);
     }
-    
+
+    public ChildrenApp() {
+        System.out.println("mmmmmmmmm");
+    }
+
     public void setBb(Long b){
         this.bb = b;
     }

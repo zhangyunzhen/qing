@@ -1,5 +1,9 @@
 package com.zyz.thread;
 
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledThreadPoolExecutor;
+import java.util.concurrent.ThreadPoolExecutor;
+
 /**
  * @Author: YunzhenZhang
  * @Description:
@@ -15,6 +19,8 @@ public class TestThreadPool {
         System.out.println(t);
         t.destroy();// 所有线程都执行完成才destory
         System.out.println(t);
+
+        ScheduledThreadPoolExecutor poolExecutor = new ScheduledThreadPoolExecutor(1);
     }
 
     // 任务类

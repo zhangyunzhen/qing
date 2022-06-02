@@ -1,8 +1,12 @@
 package com.zyz;
 
+import com.alibaba.fastjson.JSON;
+
 public class User implements Cloneable {
     protected int id;
     private String name;
+
+    private boolean a;
 
     public User() {
     }
@@ -13,6 +17,11 @@ public class User implements Cloneable {
         this.name = name;
     }
 
+
+    public static void main(String[] args) {
+        User user = new User();
+        System.out.println(JSON.toJSONString(user));
+    }
     @Override
     public User clone(){
         User user = null;
@@ -42,4 +51,11 @@ public class User implements Cloneable {
         this.name = name;
     }
 
+    public boolean isA() {
+        return a;
+    }
+
+    public void setA(boolean a) {
+        this.a = a;
+    }
 }

@@ -1,5 +1,16 @@
 package com.zyz;
 
+import com.google.common.collect.Lists;
+import com.qunar.flight.qmonitor.QMonitor;
+import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import javax.annotation.Resource;
+import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
+
 /**
  * @Author: YunzhenZhang
  * @Description:
@@ -8,9 +19,27 @@ package com.zyz;
 public class TestGit {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         System.out.println("zyz-A  first commit");
         System.out.println("zyz-B  first commit");
         System.out.println("zyz-B  first commit");
+        Thread.sleep(1000000L);
     }
+
+
+    private static Timer timer = new Timer("TaskQueueMonitor", true);
+
+    static {
+        timer.schedule(new TestGit.MonitorTask(), 0L, 1000L);
+    }
+
+    static class MonitorTask extends TimerTask {
+
+
+        @Override
+        public void run() {
+            System.out.println("asdasd");
+        }
+    }
+
 }

@@ -27,10 +27,16 @@ public class BasicApp {
     
     static{
         basicSta = "asd";
+        System.out.println("aaa");
     }
     
     {
         basicB = "asd";
+        System.out.println("bbb");
     }
-    
+
+
+    public BasicApp() {
+        System.out.println("ccccc");
+    }
 }

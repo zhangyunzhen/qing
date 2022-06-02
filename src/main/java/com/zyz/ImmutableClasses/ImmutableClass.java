@@ -23,6 +23,7 @@ public final class ImmutableClass {
         this.user= user.clone();
     }
 
+
     public User getUser() {
         return user;
     }

@@ -1,12 +1,23 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="qing:war exploded">
     <output-path>$PROJECT_DIR$/target/qing</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>qing</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="qing" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.bee.nbmonitor:nbmonitor:1.0.6" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.6.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.6.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.6.3" />
           <element id="library" level="project" name="Maven: net.sf.opencsv:opencsv:2.3" />
           <element id="library" level="project" name="Maven: junit:junit:4.11" />
           <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />

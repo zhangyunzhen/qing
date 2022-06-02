@@ -3,13 +3,18 @@ package com.zyz.guava;
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;
 import com.google.common.cache.LoadingCache;
+import com.google.common.util.concurrent.ListenableFuture;
+import com.google.common.util.concurrent.ListenableFutureTask;
+import com.google.common.util.concurrent.ListeningExecutorService;
+import com.google.common.util.concurrent.MoreExecutors;
 import org.junit.Test;
 
+import javax.xml.crypto.Data;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.TimeUnit;
+import java.util.Optional;
+import java.util.concurrent.*;
 
 /**
  * @Author: YunzhenZhang
@@ -18,14 +23,14 @@ import java.util.concurrent.TimeUnit;
  */
 public class GuavaCache {
 
-    public static Map<String,String> map = new HashMap<>();
+    public static Map<String, String> map = new HashMap<>();
 
     static {
         map.put("bb", "bb");
         map.put("cc", "cc");
     }
 
-    public static LoadingCache<String,String> cache = CacheBuilder.newBuilder()
+    public static LoadingCache<String, String> cache = CacheBuilder.newBuilder()
             //设置cache的初始大小为10，要合理设置该值
             .initialCapacity(10)
             //设置并发数为5，即同一时间最多只能有5个线程往cache执行写入操作
@@ -39,6 +44,42 @@ public class GuavaCache {
                     return "haha";
                 }
             });
+
+
+    static ListeningExecutorService backgroundRefreshPools =
+            MoreExecutors.listeningDecorator(Executors.newFixedThreadPool(20));
+    private static final LoadingCache<String, Date> calProCache = CacheBuilder.newBuilder().recordStats()
+
+            .maximumSize(1000).refreshAfterWrite(4, TimeUnit.SECONDS).expireAfterWrite(12, TimeUnit.MINUTES)
+            .build(new CacheLoader<String, Date>() {
+                @Override
+                public Date load(String calType) {
+                    System.out.println("refresh" + calType);
+                    return new Date();
+                }
+
+                @Override
+                public ListenableFuture<Date> reload(String key, Date oldValue) throws Exception {
+                    return backgroundRefreshPools.submit(new Callable<Date>() {
+                        @Override
+                        public Date call() throws Exception {
+                            System.out.println("======hahah"+Thread.currentThread().getName());
+                            return new Date();
+                        }
+                    });
+                }
+            });
+
+
+    @Test
+    public void test9() throws Exception {
+        System.out.println("a" + calProCache.get("xxxxx"));
+        System.out.println("a" + calProCache.get("xxxxx"));
+        System.out.println("a" + calProCache.get("xxxxx"));
+        while (true) {
+            //System.out.println("c" + calProCache.get("xxxxx"));
+        }
+    }
 
 
     @Test
@@ -64,8 +105,9 @@ public class GuavaCache {
     }
 
     /**
-     *  cache的get()方法
-     *      若缓存中没有值，根据自定义的方法获取值并将值加入缓存。
+     * cache的get()方法
+     * 若缓存中没有值，根据自定义的方法获取值并将值加入缓存。
+     *
      * @throws Exception
      */
     @Test

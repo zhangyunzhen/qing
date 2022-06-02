@@ -12,12 +12,12 @@ public class MyArrayList<T> implements Iterable {
 
     private T[] arry;
 
-    private int index;
+    private int size;
 
     public MyArrayList() {
     }
 
-    public MyArrayList(int size){
+    public MyArrayList(int capacity){
     }
 
     @Override

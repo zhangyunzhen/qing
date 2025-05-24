@@ -75,9 +75,10 @@ public class BFS {
 
     /**
      * 从左到右打一行，从右到左打一行
-     *  之字形
+     * 之字形
+     * <p>
+     * 注意插入的时候用 addfirst 和 addlast
      *
-     *  注意插入的时候用 addfirst 和 addlast
      * @param root
      * @return
      */

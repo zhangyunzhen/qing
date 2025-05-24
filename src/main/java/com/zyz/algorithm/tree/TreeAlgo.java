@@ -42,9 +42,6 @@ public class TreeAlgo {
         if (A == null) {
             return false;
         }
-        if (A.val != B.val) {
-            return false;
-        }
 
         return A.val == B.val & recur(A.left, B.left) & recur(A.right, B.right);
     }

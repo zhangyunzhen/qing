@@ -43,7 +43,7 @@ public class ThreadA {
             synchronized (ThreadA.class){
                 try {
                     System.out.println("notify before!!!");
-                    ThreadA.class.notify();
+                    ThreadA.class.notifyAll();
                     System.out.println("notify after!!!");
                 } catch (Exception e) {
                     e.printStackTrace();

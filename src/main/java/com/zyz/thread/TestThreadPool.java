@@ -1,8 +1,6 @@
 package com.zyz.thread;
 
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledThreadPoolExecutor;
-import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.*;
 
 /**
  * @Author: YunzhenZhang
@@ -11,7 +9,15 @@ import java.util.concurrent.ThreadPoolExecutor;
  */
 public class TestThreadPool {
 
+    public static final ExecutorService EXECUTOR_SERVICE = new ThreadPoolExecutor(1,
+            2,100
+            ,TimeUnit.MILLISECONDS
+            ,new LinkedBlockingDeque<>(1000)
+            ,new ThreadPoolExecutor.AbortPolicy());
+
+
     public static void main(String[] args) {
+
         // 创建3个线程的线程池
         ThreadPool t = ThreadPool.getThreadPool(3);
         t.execute(new Runnable[]{new Task(), new Task(), new Task()});
@@ -21,6 +27,8 @@ public class TestThreadPool {
         System.out.println(t);
 
         ScheduledThreadPoolExecutor poolExecutor = new ScheduledThreadPoolExecutor(1);
+        System.out.println(-1 <<29);
+
     }
 
     // 任务类

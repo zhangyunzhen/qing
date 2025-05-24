@@ -1,5 +1,7 @@
 package com.zyz.algorithm.tree;
 
+import com.google.common.collect.Lists;
+
 import java.util.*;
 
 /**
@@ -10,39 +12,6 @@ import java.util.*;
  */
 public class TreeTest {
 
-
-    public boolean recur(int[] arr, int left, int right) {
-
-        if (left >= right) return true;
-
-        // 左，右，中
-
-        int root = arr[right];
-
-        int i = left;
-        while (arr[i] < root) {
-            i++;
-        }
-
-        int mid = i;
-
-        while (arr[i] > root) {
-            i++;
-        }
-        return i == right && recur(arr, left, mid - 1) && recur(arr, mid, right);
-
-    }
-
-
-    public class TreeNode {
-
-        public int val;
-
-        public TreeNode left;
-
-        public TreeNode right;
-
-    }
 
 
 }

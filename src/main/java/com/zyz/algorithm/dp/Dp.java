@@ -63,6 +63,7 @@ public class Dp {
     /**
      * 剑指 Offer 10- I. 斐波那契数列
      *
+     *  dp[i] = dp[i-1] + dp[i-2]
      * @param n
      * @return
      */

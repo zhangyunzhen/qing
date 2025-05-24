@@ -1,9 +1,7 @@
 package com.zyz.algorithm.tree;
 
 import com.google.common.collect.Lists;
-import javafx.util.Pair;
 
-import javax.validation.constraints.Max;
 import java.util.List;
 
 /**
@@ -28,11 +26,7 @@ public class TreeDepth {
 
         int rightDepth = maxDepth(root.right);
 
-        if (leftDepth > rightDepth) {
-            return leftDepth + 1;
-        } else {
-            return rightDepth + 1;
-        }
+        return Math.max(leftDepth, rightDepth) + 1;
     }
 
 

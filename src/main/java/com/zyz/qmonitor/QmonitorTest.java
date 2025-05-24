@@ -1,12 +1,9 @@
 package com.zyz.qmonitor;
 
 import com.google.common.base.Stopwatch;
-import com.qunar.flight.qmonitor.QMonitor;
 
-import java.util.Calendar;
 import java.util.Date;
 import java.util.Map;
-import java.util.concurrent.TimeUnit;
 
 /**
  * This is Description
@@ -18,16 +15,16 @@ public class QmonitorTest {
 
 
     public static void main(String[] args) {
-        QMonitor.recordOne("AAAAA");
+     /*   QMonitor.recordOne("AAAAA");
         QMonitor.recordOne("BBBBB", 1000L);
         QMonitor.recordOne("BBBBB", 5000L);
         QMonitor.recordSize("CCCCCC", 10);
-        QMonitor.recordSize("CCCCCC", 30);
-        new Thread(new QmonitorThread()).start();
+        QMonitor.recordSize("CCCCCC", 30);*/
+      //  new Thread(new QmonitorThread()).start();
     }
 
 
-    public static class QmonitorThread implements Runnable {
+    /*public static class QmonitorThread implements Runnable {
         @Override
         public void run() {
             while (true) {
@@ -47,5 +44,5 @@ public class QmonitorTest {
 
         }
     }
-
+*/
 }

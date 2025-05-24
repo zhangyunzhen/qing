@@ -11,7 +11,8 @@ import java.util.*;
 public class NumberSum {
 
     /**
-     *  map + 数组
+     * map + 数组
+     *
      * @param nums
      * @param target
      * @return
@@ -31,13 +32,12 @@ public class NumberSum {
     }
 
 
-
     /**
-     *  三数之和
-     *
-     *      求解方式：
-     *          排序+双指针
-     *      注意：要注意去重逻辑
+     * 三数之和
+     * <p>
+     * 求解方式：
+     * 排序+双指针
+     * 注意：要注意去重逻辑
      *
      * @param nums
      * @return
@@ -72,7 +72,7 @@ public class NumberSum {
 
                     int nTemp = nums[n];
                     n--;
-                    while (n > 0 && nums[n] == temp) {
+                    while (n > 0 && nums[n] == nTemp) {
                         n--;
                     }
                 } else if (nums[m] + nums[n] < target) {

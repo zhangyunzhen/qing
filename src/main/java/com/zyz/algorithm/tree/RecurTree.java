@@ -27,13 +27,13 @@ public class RecurTree {
     Boolean recurIsSymmetric(TreeNode left, TreeNode right) {
         if (left.left == null && right == null) return true;
         if (left == null) return false;
-        if (left == null) return false;
+        if (right == null) return false;
         return left.val == right.val && recurIsSymmetric(left.left, right.right) && recurIsSymmetric(left.right, right.left);
     }
 
 
     /**
-     * 剑指 Offer 27. 二叉树的镜像
+     * 剑指 Offer 27. 二叉树的镜像/ 翻转二叉树
      * 单个结点递归
      *
      * 公式：

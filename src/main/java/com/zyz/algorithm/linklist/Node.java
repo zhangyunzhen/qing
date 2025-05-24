@@ -1,6 +1,5 @@
 package com.zyz.algorithm.linklist;
 
-import qunar.api.pojo.node.ListNode;
 
 /**
  * This is Description

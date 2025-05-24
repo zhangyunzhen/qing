@@ -11,17 +11,17 @@
 
 package com.zyz;
 
+
 import com.alibaba.fastjson.JSON;
-import com.google.common.base.CharMatcher;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import com.google.common.collect.Sets;
-import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
 
 import java.lang.management.GarbageCollectorMXBean;
 import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadMXBean;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 import java.math.BigDecimal;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -66,7 +66,7 @@ public class test {
     }
 
     @Test
-    public void test4(){
+    public void test4() {
         TreeSet<Integer> treeSet = new TreeSet<>();
         treeSet.add(0);
         treeSet.add(-1);
@@ -79,6 +79,22 @@ public class test {
         }
     }
 
+    @Test
+    public void test5() {
+        System.out.println(System.currentTimeMillis());
+        System.out.println(UUID.randomUUID().toString());
+        System.out.println(UUID.randomUUID().toString());
+        System.out.println(UUID.randomUUID().toString());
+    }
+
+
+    private String duplicateApplyDesc = "代理商账户下已有对应广告主公司的授权申请（授权ID：%s），不允许重新提交";
+
+    @Test
+    public void test6() {
+        String name = String.format(duplicateApplyDesc, "授权名称");
+        System.out.println(name);
+    }
 
     /**
      * 使用switch，一定要在case加break，不然会顺序执行下面的代码。
@@ -133,7 +149,7 @@ public class test {
     }
 
     @Test
-    public void aa(){
+    public void aa() {
         List<String> list = new ArrayList<>();
 
         HashSet<Object> set = new HashSet<>();
@@ -154,10 +170,29 @@ public class test {
     }
 
     @Test
+    public void test11() {
+        double aa = 18;
+        BigDecimal bigDecimal = BigDecimal.valueOf(aa);
+        System.out.println(bigDecimal);
+    }
+
+    @Test
+    public void test22233() {
+        System.out.println(System.currentTimeMillis());
+    }
+
+    @Test
     public void dataTest() throws ParseException {
         long time = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").parse("1970-01-01 08:00:00").getTime();
         System.out.println(time);
     }
+
+    @Test
+    public void aaTest() {
+        Byte aByte = new Byte("1");
+        System.out.println(aByte == 1);
+    }
+
 
     /**
      * 正则表达式匹配
@@ -215,6 +250,13 @@ public class test {
         List<String> list = strings.subList(0, 5);
     }
 
+    @Test
+    public void test1121() {
+        String a = "00021";
+        System.out.println(a.substring(1));
+        Long aLong = Long.valueOf(a);
+        System.out.println(aLong);
+    }
 
     @Test
     public void test999() {
@@ -259,22 +301,20 @@ public class test {
 
     @Test
     public void test222() {
-        TreeMap<String, String> paramTreeMap = new TreeMap();
-        paramTreeMap.put("uuid", "aaa");
-        paramTreeMap.put("merchantId", "ccc");
-        paramTreeMap.put("charset", "ddd");
-        paramTreeMap.put("signType", "gggggg");
-        paramTreeMap.put("timestamp", "lllla");
-        paramTreeMap.put("version", "pppqwe");
-        paramTreeMap.put("data", "asdasdd");
+        List<Long> list = Lists.newArrayList();
+        list.add(12345678L);
+        list.add(23456789L);
+        list.add(33456789L);
+        System.out.println(list.contains(12345678L));
     }
 
     @Test
     public void testaaaa() {
-        int maxSum = Integer.MAX_VALUE;
-        int minValue = Integer.MIN_VALUE;
-        System.out.println(maxSum + "=====" + minValue);
+        String a = "【新增集团】: 新增集团ID「%s」(集团名称:%s)，请去确认";
+        String format = String.format(a, "111", "222");
+        System.out.println(format);
     }
+
 
     @Test
     public void test3333() {
@@ -300,20 +340,50 @@ public class test {
         }
     }
 
-    @Test
-    public void testz() {
-        //System.out.println(4^2);
-        System.out.println(1 << 1);
 
-        int[] a = new int[10];
-        Arrays.sort(a);
+    @Test
+    public void test555() {
+        List<String> valueType = test.getValueType(1);
+    }
+
+    private static List<String> getValueType(Object v) {
+        List<String> list = Lists.newArrayList();
+        if (v == null) {
+            return null;
+        }
+
+        if (v instanceof List) {
+            List<Object> objects = (List) v;
+            List<String> collect = objects.stream().map(p -> String.valueOf(p)).collect(Collectors.toList());
+            list.addAll(collect);
+        } else {
+            list.add(String.valueOf(v));
+        }
+        return list;
     }
 
     @Test
-    public void testzzz() {
-        int[][] a = new int[10][0];
-        a[0][0] = 1;
-        System.out.println(a[0].length);
+    public void testz() {
+        //System.out.println(4^2);
+        double a = 1.1;
+        int b = (int) a;
+        System.out.println(b);
+
+    }
+
+    @Test
+    public void testzzz() throws IllegalAccessException {
+        Class<User> userClass = User.class;
+        User user = new User();
+        user.setId(1);
+        Field[] fields = userClass.getDeclaredFields();
+        for (Field field : fields) {
+            if (!field.isSynthetic()) {
+                System.out.print(field.getName());
+                System.out.print(field.getType());
+                System.out.println(field.get(user));
+            }
+        }
     }
 
     @Test

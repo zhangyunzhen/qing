@@ -85,6 +85,12 @@ public class TwoPointerMode {
     /**
      * 将数组以结尾元素分为两部分
      *
+     *  123456
+     *
+     *  654321
+     *
+     *  1263
+     *
      * @param nums
      * @return
      */
@@ -100,6 +106,9 @@ public class TwoPointerMode {
             }
             high++;
         }
+
+        // 注意 low指针最终指向的是第一个大于结尾元素的数据
+        swap(nums, low , nums.length - 1);
         return nums;
     }
 

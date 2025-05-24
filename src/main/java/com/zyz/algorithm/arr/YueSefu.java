@@ -11,31 +11,30 @@ import java.util.HashMap;
 public class YueSefu {
 
     /**
+     *
+     *  [1.-1.2.3.1.-1]
      * 剑指 Offer 42. 连续子数组的最大和
      *
+     * dp[i] = Math(dp[i-1],0) + int[i]
      * @param nums
      * @return
      */
     public int maxSubArray(int[] nums) {
-        int sum = 0;
-        int maxSum = Integer.MIN_VALUE;
-        int i = 0;
-        while (i < nums.length) {
-            sum += nums[i];
-            maxSum = Math.max(sum, maxSum);
-            if (sum < 0) {
-                sum = 0;
-            }
-            i++;
+        if (nums == null || nums.length == 0) return 0;
+
+        int max = nums[0];
+        for (int i = 1; i < nums.length; i++) {
+            nums[i] += Math.max(nums[i - 1], 0);
+            max = Math.max(nums[i], max);
         }
-        return sum;
+        return max;
     }
 
 
     /**
      * 剑指 Offer II 010. 和为 k 的连续子数组的个数
-     * 题解：q前缀和的思路。使用hashmap的存储前缀和
-     *
+     * 题解：前缀和的思路。使用hashmap的存储前缀和
+     * 1231219 10
      * @param nums
      * @param k
      * @return

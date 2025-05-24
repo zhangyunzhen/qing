@@ -35,7 +35,7 @@ public class Solution {
 
 
     /**
-     * 在字符串 s 中找出第一个只出现一次的字符。如果没有，返回一个单空格。 s 只包含小写字母。
+     * 在字符串s中找出第一个只出现一次的字符。如果没有，返回一个单空格。 s 只包含小写字母。
      *
      * @param s
      * @return
@@ -93,8 +93,8 @@ public class Solution {
      /*   StringBuffer stringBuffer = new StringBuffer();
         System.out.println('0'-'0'+'0');*/
 
-        double pow = Math.pow(10, 2);
-        System.out.println(pow);
+        //double pow = Math.pow(10, 2);
+        System.out.println("测试公司zbc123测试".hashCode() % 100);
     }
 
     /**
@@ -137,10 +137,10 @@ public class Solution {
 
     /**
      * 剑指 Offer 67. 把字符串转换成整数
-     *
-     *     1.判断符号位
-     *     2.遍历数组 res = res*10+num
-     *       要判断是否越界
+     * "12313"
+     * 1.判断符号位
+     * 2.遍历数组 res = res*10+num
+     * 要判断是否越界
      *
      * @param str
      * @return
@@ -178,6 +178,7 @@ public class Solution {
 
         return res * sign;
     }
+
 
 
 }

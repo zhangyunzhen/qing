@@ -22,6 +22,13 @@ public class SlidingWindow {
     }
 
 
+    /**
+     * 和为s的连续正数序列
+     *
+     *   9
+     * @param target
+     * @return
+     */
     public int[][] findContinuousSequence(int target) {
         if (target < 1) {
             return new int[0][0];
@@ -53,7 +60,7 @@ public class SlidingWindow {
 
     /**
      * 剑指 Offer 48. 最长不含重复字符的子字符串
-     *
+     * abcdeb
      * @param s
      * @return
      */

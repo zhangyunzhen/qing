@@ -15,6 +15,7 @@ public class TreeOrder {
 
     /**
      * 前序遍历
+     *   根-左-右
      */
     public void preOrder(TreeNode node) {
         if (node == null) return;
@@ -28,6 +29,7 @@ public class TreeOrder {
 
     /**
      * 中序遍历
+     *  左-根-右
      */
     public void inOrder(TreeNode node) {
         if (node == null) return;
@@ -42,6 +44,8 @@ public class TreeOrder {
 
     /**
      * 后序遍历
+     * 根-左-右
+     *
      */
     public void postOrder(TreeNode node) {
         if (node == null) return;

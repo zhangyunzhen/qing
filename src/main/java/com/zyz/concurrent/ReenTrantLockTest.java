@@ -27,6 +27,12 @@ public class ReenTrantLockTest {
     public static void sync(String desc) {
         lock.lock();
         try {
+            new Thread(() -> {
+                lock.lock();
+            }).start();
+
+            Thread.sleep(1000000);
+
             condition.await();
             System.out.println(desc);
         } catch (InterruptedException e) {

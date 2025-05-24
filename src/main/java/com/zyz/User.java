@@ -3,10 +3,10 @@ package com.zyz;
 import com.alibaba.fastjson.JSON;
 
 public class User implements Cloneable {
-    protected int id;
-    private String name;
+    public int id;
+    public String name;
 
-    private boolean a;
+    public boolean a;
 
     public User() {
     }

@@ -14,6 +14,71 @@ import java.util.List;
  */
 public class Arr {
 
+
+    public static void main(String[] args) {
+       /* int[] a = {0, 1, 1, 2, 4, 4, 1, 3, 3, 2};
+        int[] topk = Arr.topk(a, 6);
+        System.out.println("    " + JSON.toJSONString(topk));*/
+
+        int i = majorityElement(new int[]{1, 2, 3, 4, 1, 1, 1, 1});
+        System.out.println(i);
+    }
+
+    /**
+     *  123456 3
+     *
+     *  456123
+     *
+     *  654321
+     *  456
+     *  123
+     *
+     *   数组向右旋转k元素
+     * @param nums
+     * @param k
+     */
+    public static void rotate(int[] nums, int k) {
+        if (nums == null || nums.length == 0) return;
+        int n = nums.length;
+        k = k % n; // 处理 k >= n 的情况
+        if (k == 0) return; // 无需移动
+
+        // 三次反转操作
+        reverse(nums, 0, n - 1); // 整体反转
+        reverse(nums, 0, k - 1); // 反转前 k 个元素
+        reverse(nums, k, n - 1); // 反转剩余元素
+    }
+
+    private static void reverse(int[] nums, int start, int end) {
+        while (start < end) {
+            int temp = nums[start];
+            nums[start] = nums[end];
+            nums[end] = temp;
+            start++;
+            end--;
+        }
+    }
+
+    /**
+     * 查询数组中超过一半的数字
+     *
+     * @param nums
+     * @return
+     */
+    public static int majorityElement(int[] nums) {
+        if (nums == null || nums.length == 0) return -1;
+
+        int mode = 0;
+        int count = 0;
+        for (int num : nums) {
+            if (count == 0) mode = num;
+            count += (mode == num) ? 1 : -1;
+        }
+        return mode;
+    }
+
+
+
     public int maxSubArray(int[] nums) {
 
         int max = Integer.MIN_VALUE;
@@ -31,6 +96,8 @@ public class Arr {
     /**
      * 找出数组中任意一个重复数字
      * 或者使用set
+     *
+     *   234562
      * 这种方式算出来时间复杂度是O(n),空间复杂度也是O(n)
      *
      * @return
@@ -51,6 +118,33 @@ public class Arr {
             nums[i] = temp;
         }
         return -1;
+    }
+
+
+    /**
+     * 找出数组中所有重复数字,数字范围1-n,数组大小 n
+     * [1,2,3,4,1]
+     * [2,3,2,1,5]
+     * [2,3,4,5]
+     *  核心思想是借助数组标识正负值来标记元素是否出现，替代map存储
+     *
+     * @param nums
+     * @return
+     */
+    public List<Integer> findRepeatNumber3(int[] nums) {
+        if (nums == null || nums.length == 0) return new ArrayList<>();
+
+        List<Integer> res = new ArrayList<>();
+        for (int i = 0; i < nums.length; i++) {
+            int num = nums[i];
+            int index = Math.abs(num) - 1;
+            if (nums[index] > 0) {
+                nums[index] = -nums[index];
+            } else {
+                res.add(index + 1);
+            }
+        }
+        return res;
     }
 
     public static int[] queryIntersection(int array1[], int array2[]) {
@@ -148,14 +242,7 @@ public class Arr {
     }
 
 
-    public static void main(String[] args) {
-       /* int[] a = {0, 1, 1, 2, 4, 4, 1, 3, 3, 2};
-        int[] topk = Arr.topk(a, 6);
-        System.out.println("    " + JSON.toJSONString(topk));*/
 
-        int[] ints = queryIntersection(new int[]{1, 2, 3, 9}, new int[]{3, 5, 8, 9, 10});
-        System.out.println(JSON.toJSONString(ints));
-    }
 
 
 }

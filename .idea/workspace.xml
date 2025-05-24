@@ -10,180 +10,60 @@
     <bookmark url="file://$PROJECT_DIR$/../../qunar/11bee/honeycomb_gro/thanos/src/main/java/com/bee/inception/thanos/service/wechat/impl/GroupMemberStatisticServiceImpl.java" description="}" line="86" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8038eb2-8aad-45c2-bae1-1acd0eb41bfb" name="Default" comment="fix">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/Thread/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/Thread/FooBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/Thread/H2O.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/Thread/ZeroEvenOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/Thread/method/CycleThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/Thread/method/FooByCountDownLatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/Thread/method/FooByLockSupprot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/Thread/method/FooBySemaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/Thread/method/FooBySynchronized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/Thread/method/FooByWaitNotify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/Arr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/ArrTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/BinatySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/BitOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/NumberSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/Regular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/SlidingWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/TwoPointerMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/TwodimensionalArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/YueSefu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/character/AmountUpper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/character/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/character/StringDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/collection/MyLinkedList/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/collection/hashmap/MyHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/collection/hashmap/MyMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/collection/queue/MyArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/collection/queue/MyLinekdQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/collection/queue/Myaa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/collection/stack/MyArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/collection/stack/MyLinkedStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/dp/DiffPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/dp/Dp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/dp/Dp1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/dp/DpDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/dp/StockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/lee/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/lee/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/linklist/CommonLinkAlgo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/linklist/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/linklist/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/linklist/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/lru/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/lru/LRUDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/queue/MaxQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/search/BFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/search/BackTrackingDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/search/CombinationTracking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/search/DFS_Backtraking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/search/PickRoleBackingTracking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/sort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/sort/OptimalQuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/sort/QucikSortDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/sort/Sorts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/stack/javaStackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/test/ArrHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/test/DemoHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/test/Thread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/BFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/BalanceTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/RecurTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/SumTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/TreeAlgo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/TreeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/TreeDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/TreeOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/TreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/TreeTransform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/basic/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/basic/Father.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/basic/Mother.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/basic/OperatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/basic/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/concurrent/CountDownLatchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/concurrent/FutureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/concurrent/ReenTrantLockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/concurrent/SemaphoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/concurrent/TestThreadPoolExcutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/gc/GCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/jvm/monitor/JConsoleAnalyze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/pattern/PatternTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/qmonitor/QmonitorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/queue/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/see/algo/arr/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/see/algo/arr/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/see/algo/arr/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/see/algo/linkedList/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/see/algo/linkedList/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/see/concurrent/IncreCountDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/serializable/TestApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/serializable/TestBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/thread/ThreadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/qing_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/qing_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/qing_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/qing_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_29.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="c8038eb2-8aad-45c2-bae1-1acd0eb41bfb" name="Default" comment="feat： 算法练习">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/linklist/CopyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/qing_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/qing_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/qing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/ImmutableClasses/ImmutableClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/ImmutableClasses/ImmutableClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/InnerClassDemo/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/InnerClassDemo/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qing.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/TestGit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/TestGit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/classloaderAndInitial/BasicApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/classloaderAndInitial/BasicApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/classloaderAndInitial/ChildrenApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/classloaderAndInitial/ChildrenApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/collection/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/collection/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/collection/testApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/collection/testApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/concurrent/ConurrentHashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/concurrent/ConurrentHashMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/concurrent/ThreadLocalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/concurrent/ThreadLocalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/concurrent/VolatileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/concurrent/VolatileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/csvUpload/CsvUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/csvUpload/CsvUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/date/DateFormatUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/date/DateFormatUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/date/DateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/date/DateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/date/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/date/DateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/date/Java8Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/date/Java8Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/enumDemo/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/enumDemo/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/enumDemo/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/enumDemo/Zoo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/generic/GenericMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/generic/GenericMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/guava/EventBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/guava/EventBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/guava/EventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/guava/EventListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/guava/GuavaCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/guava/GuavaCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/guava/GuavaColletion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/guava/GuavaColletion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/guava/GuavaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/guava/GuavaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/java8Demo/DefauMethImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/java8Demo/DefauMethImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/java8Demo/DefaultMethodInterf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/java8Demo/DefaultMethodInterf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/java8Demo/LambdaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/java8Demo/LambdaDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/java8Demo/OptinalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/java8Demo/OptinalDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/java8Demo/TestLambda2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/java8Demo/TestLambda2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/java8Demo/TetsLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/java8Demo/TetsLambda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/java8Demo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/java8Demo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/jvm/ClassLoadProceed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/jvm/ClassLoadProceed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/jvm/GcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/jvm/GcTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/jvm/HeapOutOfMemery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/jvm/HeapOutOfMemery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/jvm/TestClainInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/jvm/TestClainInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/monitor/jvm/CpuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/jvm/monitor/CpuTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/monitor/jvm/OOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/jvm/monitor/OOM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/paramTransmit/TestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/paramTransmit/TestBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/paramTransmit/testApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/paramTransmit/testApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/sort/BubblrSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/sort/BubblrSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/stream/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/stream/StreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/Arr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/Arr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/ArrTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/ArrTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/BinatySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/BitOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/BitOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/NumberSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/NumberSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/SlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/SlidingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/TwoPointerMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/TwoPointerMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/TwodimensionalArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/TwodimensionalArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/YueSefu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/YueSefu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/character/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/character/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/character/StringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/character/StringDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/dp/Dp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/dp/Dp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/linklist/CommonLinkAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/linklist/CommonLinkAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/linklist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/linklist/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/linklist/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/linklist/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/test/Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/test/Thread1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/BFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/RecurTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/RecurTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/TreeAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/TreeAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/TreeDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/TreeDepth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/TreeOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/TreeOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/algorithm/tree/TreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/concurrent/ReenTrantLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/concurrent/ReenTrantLockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/qmonitor/QmonitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/qmonitor/QmonitorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/thread/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/thread/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/thread/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/thread/B.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/thread/TestThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/thread/TestThreadPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/thread/ThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/thread/ThreadA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/thread/ThreadB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/thread/ThreadB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyz/thread/ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyz/thread/ThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zyz/date/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zyz/date/DateUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zyz/guava/GuavaCache$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zyz/guava/GuavaCache$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zyz/guava/GuavaCache$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zyz/guava/GuavaCache$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zyz/guava/GuavaCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zyz/guava/GuavaCache.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,6 +97,10 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../../../.." />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -276,6 +160,9 @@
         <entry key="$PROJECT_DIR$" value="7cce0e04e0577379254f4300475404c687f247a8" />
       </map>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/zyz/test.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -341,9 +228,9 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="alwaysUpdateSnapshots" value="true" />
-        <option name="localRepository" value="$USER_HOME$/dev_software/maven/repository" />
+        <option name="localRepository" value="$USER_HOME$/software/maven/bytedance_respo" />
         <option name="mavenHome" value="$USER_HOME$/dev_software/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="$USER_HOME$/dev_software/maven/settings.xml" />
+        <option name="userSettingsFile" value="$USER_HOME$/software/maven/bytedance_setting.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -649,20 +536,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/bytedance/workspace/zyz/qing",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bytedance/workspace/zyz/qing&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zyz.see.algo.arr" />
@@ -681,9 +572,32 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.User">
+  <component name="RunManager" selected="JUnit.LambdaDemo.testLambda">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Arr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zyz.algorithm.arr.Arr" />
+      <module name="qing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zyz.algorithm.arr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -702,13 +616,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zyz.see.algo.linkedList.Demo1" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zyz.algorithm.character.Solution" />
       <module name="qing" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zyz.see.algo.linkedList.*" />
+          <option name="PATTERN" value="com.zyz.algorithm.character.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -716,27 +630,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zyz.see.algo.arr.Demo3" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zyz.algorithm.linklist.Test" />
       <module name="qing" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zyz.see.algo.arr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zyz.User" />
-      <module name="qing" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zyz.*" />
+          <option name="PATTERN" value="com.zyz.algorithm.linklist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -750,25 +650,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="LambdaDemo.testLambda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zyz.java8Demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zyz.java8Demo" />
+      <option name="MAIN_CLASS_NAME" value="com.zyz.java8Demo.LambdaDemo" />
+      <option name="METHOD_NAME" value="testLambda" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="qing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zyz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zyz" />
-      <option name="MAIN_CLASS_NAME" value="com.zyz.test" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -783,29 +683,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.User" />
-      <item itemvalue="Application.Demo3" />
-      <item itemvalue="Application.Demo1 (1)" />
+      <item itemvalue="Application.Arr" />
       <item itemvalue="Application.ArrTest" />
-      <item itemvalue="JUnit.test.test4" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.LambdaDemo.testLambda" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.User" />
+        <item itemvalue="JUnit.LambdaDemo.testLambda" />
         <item itemvalue="Application.ArrTest" />
-        <item itemvalue="Application.Demo1 (1)" />
-        <item itemvalue="JUnit.test.test4" />
-        <item itemvalue="Application.Demo3" />
+        <item itemvalue="Application.Arr" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -1001,7 +892,65 @@
       <workItem from="1650272188144" duration="97715000" />
       <workItem from="1651215271825" duration="32972000" />
       <workItem from="1651731174551" duration="44066000" />
-      <workItem from="1654169615494" duration="3857000" />
+      <workItem from="1654169615494" duration="6193000" />
+      <workItem from="1654397686938" duration="1195000" />
+      <workItem from="1654410158443" duration="275000" />
+      <workItem from="1654411501584" duration="2595000" />
+      <workItem from="1654417312923" duration="4089000" />
+      <workItem from="1654429987762" duration="598000" />
+      <workItem from="1654649226982" duration="291000" />
+      <workItem from="1656648772103" duration="173000" />
+      <workItem from="1656649300475" duration="82000" />
+      <workItem from="1658590432385" duration="941000" />
+      <workItem from="1658636977169" duration="579000" />
+      <workItem from="1658757268654" duration="3982000" />
+      <workItem from="1659284060153" duration="597000" />
+      <workItem from="1659286259580" duration="1683000" />
+      <workItem from="1659309628887" duration="277000" />
+      <workItem from="1659310464854" duration="597000" />
+      <workItem from="1659313580037" duration="596000" />
+      <workItem from="1659319889595" duration="1978000" />
+      <workItem from="1659406064621" duration="1367000" />
+      <workItem from="1659441316054" duration="597000" />
+      <workItem from="1659445277497" duration="3457000" />
+      <workItem from="1659518427638" duration="1271000" />
+      <workItem from="1659669709653" duration="8264000" />
+      <workItem from="1660276013648" duration="7100000" />
+      <workItem from="1663128135432" duration="734000" />
+      <workItem from="1663143126615" duration="13997000" />
+      <workItem from="1663743152959" duration="1858000" />
+      <workItem from="1663847867679" duration="237000" />
+      <workItem from="1663848138112" duration="1415000" />
+      <workItem from="1667484851856" duration="2304000" />
+      <workItem from="1668239567175" duration="10098000" />
+      <workItem from="1668518663991" duration="25468000" />
+      <workItem from="1668738008317" duration="4543000" />
+      <workItem from="1668770243454" duration="2000" />
+      <workItem from="1668770261732" duration="17000" />
+      <workItem from="1668770292227" duration="120000" />
+      <workItem from="1668770591548" duration="3199000" />
+      <workItem from="1668841003277" duration="2934000" />
+      <workItem from="1668992581775" duration="2801000" />
+      <workItem from="1669539475577" duration="1957000" />
+      <workItem from="1669888971311" duration="562000" />
+      <workItem from="1669968435690" duration="316000" />
+      <workItem from="1669968766993" duration="591000" />
+      <workItem from="1670209047960" duration="617000" />
+      <workItem from="1675999910765" duration="1612000" />
+      <workItem from="1745475328133" duration="12657000" />
+      <workItem from="1745740561080" duration="26739000" />
+      <workItem from="1746516808227" duration="389000" />
+      <workItem from="1746517287307" duration="596000" />
+      <workItem from="1747115686242" duration="5621000" />
+      <workItem from="1747121393306" duration="25070000" />
+      <workItem from="1747274112960" duration="17528000" />
+      <workItem from="1747485751658" duration="43000" />
+      <workItem from="1747485831026" duration="21411000" />
+      <workItem from="1747614735856" duration="37328000" />
+      <workItem from="1747793229824" duration="17549000" />
+      <workItem from="1747903032652" duration="906000" />
+      <workItem from="1747914071160" duration="116000" />
+      <workItem from="1747914228483" duration="15071000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1528626161749</created>
@@ -1087,7 +1036,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582873097430</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat： 算法练习">
+      <created>1654173655294</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1654173655294</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1187,15 +1143,6 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -1210,10 +1157,20 @@
         </entry>
       </map>
     </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="feat： 算法练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat： 算法练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1224,28 +1181,8 @@
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zyz/thread/ThreadA.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zyz/thread/ThreadA.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zyz/thread/ThreadA.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/zyz/test.java</url>
-          <line>268</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zyz/test.java</url>
-          <line>247</line>
+          <line>289</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1260,13 +1197,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/zyz/test.java</url>
-          <line>123</line>
+          <line>139</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zyz/algorithm/arr/ArrTest.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="65" />
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_361.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java</url>
+          <line>284</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zyz/concurrent/ReenTrantLockTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zyz/thread/ThreadA.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1278,6 +1225,14 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/qing$test_test222.ic" NAME="test.test222 Coverage Results" MODIFIED="1675999958573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zyz.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/qing$test_test222.exec" NAME="test.test222 Coverage Results" MODIFIED="1676000630876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zyz.*</FILTER>
+    </SUITE>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">

@@ -1,10 +1,7 @@
 package com.zyz;
 
 import com.google.common.collect.Lists;
-import com.qunar.flight.qmonitor.QMonitor;
-import org.apache.commons.lang3.StringUtils;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -27,10 +24,10 @@ public class TestGit {
     }
 
 
-    private static Timer timer = new Timer("TaskQueueMonitor", true);
+   // private static Timer timer = new Timer("TaskQueueMonitor", true);
 
     static {
-        timer.schedule(new TestGit.MonitorTask(), 0L, 1000L);
+    //    timer.schedule(new TestGit.MonitorTask(), 0L, 1000L);
     }
 
     static class MonitorTask extends TimerTask {
